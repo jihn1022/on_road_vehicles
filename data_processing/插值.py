@@ -358,8 +358,8 @@ if __name__ == "__main__":
     print("--------------------")
 
     # 设置参数
-    input_folder = '/home/jihn/battery-charging-data-of-on-road-electric-vehicles/charging_voltage_curves'
-    output_folder = '/home/jihn/battery-charging-data-of-on-road-electric-vehicles/input_data'
+    input_folder = 'charging_voltage_curves'
+    output_folder = 'input_data'
     x_column = 'available_capacity'
     
     # 要插值的Y列

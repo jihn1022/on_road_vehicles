@@ -133,8 +133,8 @@ def main():
     主函数：合并所有CSV文件后统一进行归一化处理
     """
     # 设置路径
-    input_directory = '/home/jihn/battery-charging-data-of-on-road-electric-vehicles/extracted_features_by_subfolder'
-    output_directory = '/home/jihn/battery-charging-data-of-on-road-electric-vehicles/normalized_features'
+    input_directory = 'extracted_features_by_subfolder'
+    output_directory = 'normalized_features'
     
     print("=== 开始统一归一化处理 ===")
     

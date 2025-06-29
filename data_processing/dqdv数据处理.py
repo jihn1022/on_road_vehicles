@@ -63,8 +63,8 @@ def process_single_file(csv_file):
         return None
 
 # 设置输入和输出文件夹路径
-input_folder = '/home/jihn/battery-charging-data-of-on-road-electric-vehicles/charging_voltage_curves'
-output_folder = '/home/jihn/battery-charging-data-of-on-road-electric-vehicles/processed_dqdv'
+input_folder = 'charging_voltage_curves'
+output_folder = 'processed_dqdv'
 
 # 创建输出文件夹
 os.makedirs(output_folder, exist_ok=True)

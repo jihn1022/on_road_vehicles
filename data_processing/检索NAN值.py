@@ -96,7 +96,7 @@ def generate_missing_values_report(folder_path, output_file='missing_values_repo
 # 使用示例
 if __name__ == "__main__":
     # 设置要检查的文件夹路径
-    folder_path = "/home/jihn/battery-charging-data-of-on-road-electric-vehicles/standardized_features"
+    folder_path = "normalized_features"
     
     # 检查缺失值
     print("开始检查CSV文件中的缺失值...")

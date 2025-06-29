@@ -97,9 +97,9 @@ def create_output_path(input_file, input_folder, output_folder):
     return output_file
 
 # 设置文件夹路径
-input_folder = '/home/jihn/battery-charging-data-of-on-road-electric-vehicles/input_data'
-interpolated_folder = '/home/jihn/battery-charging-data-of-on-road-electric-vehicles/interpolated_dqdv'
-output_folder = '/home/jihn/battery-charging-data-of-on-road-electric-vehicles/combined_features'
+input_folder = 'input_data'
+interpolated_folder = 'interpolated_dqdv'
+output_folder = 'combined_features'
 
 # 创建输出文件夹
 os.makedirs(output_folder, exist_ok=True)

@@ -136,7 +136,7 @@ def save_detailed_report(file_details, folder_stats, total_files, total_data_poi
     print(f"详细报告已保存到: {output_file}")
 
 # 设置要统计的文件夹路径
-folder_path = '/home/jihn/battery-charging-data-of-on-road-electric-vehicles/processed_dqdv'
+folder_path = 'processed_dqdv'
 
 # 执行统计
 total_files, total_data_points, file_details, folder_stats = count_data_points_in_folder(folder_path)

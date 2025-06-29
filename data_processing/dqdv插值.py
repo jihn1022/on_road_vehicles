@@ -272,8 +272,8 @@ def save_failed_files_report(failed_files, output_folder):
     return report_file
 
 # 设置输入和输出文件夹路径
-input_folder = '/home/jihn/battery-charging-data-of-on-road-electric-vehicles/processed_dqdv'
-output_folder = '/home/jihn/battery-charging-data-of-on-road-electric-vehicles/interpolated_dqdv'
+input_folder = 'processed_dqdv'
+output_folder = 'interpolated_dqdv'
 
 # 创建输出文件夹
 os.makedirs(output_folder, exist_ok=True)

@@ -157,7 +157,7 @@ def detect_low_soc_change(root_folder):
 # 使用示例
 if __name__ == "__main__":
     # 设置您的文件夹路径
-    root_folder = "/home/jihn/battery-charging-data-of-on-road-electric-vehicles/charging_voltage_curves"
+    root_folder = "charging_voltage_curves"
     
     # 执行检测
     detect_low_soc_change(root_folder)

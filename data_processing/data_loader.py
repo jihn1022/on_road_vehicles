@@ -330,8 +330,8 @@ class DataProcessor:
 
 def main():
     # 设置目录路径
-    input_directory = '/home/jihn/battery-charging-data-of-on-road-electric-vehicles/combined_features'
-    output_directory = '/home/jihn/battery-charging-data-of-on-road-electric-vehicles/extracted_features_by_subfolder'
+    input_directory = 'combined_features'
+    output_directory = 'extracted_features_by_subfolder'
     
     # 创建数据处理器
     processor = DataProcessor(input_directory)
